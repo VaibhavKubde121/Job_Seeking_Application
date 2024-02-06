@@ -22,7 +22,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://job-seeking-app-lr2p.onrender.com/api/v1/user/login",
+        "https://jobseeking-app.onrender.com/api/v1/user/login",
         { email, role, password },
         {
           headers: {

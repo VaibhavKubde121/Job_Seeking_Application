@@ -11,7 +11,7 @@ const JobDetail = () => {
   const {isAuthorized,user}=useContext(Context)
   useEffect(()=>{
     axios
-      .get(`https://job-seeking-app-lr2p.onrender.com/api/v1/job/${id}`, {
+      .get(`https://jobseeking-app.onrender.com/api/v1/job/${id}`, {
         withCredentials: true,
       })
       .then((res) => {
